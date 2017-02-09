@@ -1,0 +1,57 @@
+body {
+    background-color: #ececec;
+    font: 40.0% "Trebuchet MS", Tahoma, Arial, sans-serif;
+    line-height: 1.6em;
+    color: #444;
+    font-size: 14px;
+}
+
+input[type=text] {
+    width: 100%;
+    font-size: 17px;
+}
+
+input[type=file] {
+    width: 100%;
+    font-size: 12px;
+}
+
+input[type=text], input[type=file] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    background-color: #ccc;
+    border: none;
+    padding: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #89bd51;
+    color: #fff;
+}
+
+.pBar {
+    width: 250px;
+    height: 10px;
+    margin-bottom: 10px;
+    /*display: none;*/
+}
+
+#status {
+    float: left;
+    color: red;
+}
+
+.notSupport {
+    color: red;
+}
+
+.upload-thumb {
+    margin: 5px;
+}
